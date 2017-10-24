@@ -1,6 +1,6 @@
 package nl.hsac.fitnesse.fixture.slim;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -38,7 +38,7 @@ public class StringFixture extends SlimFixture {
      * <p><code>null</code>s are handled without exceptions. Two <code>null</code>
      * references are considered to be equal. The comparison is case sensitive.</p>
      *
-     * @see org.apache.commons.lang.StringUtils#equals(String, String)
+     * @see StringUtils#equals(CharSequence, CharSequence)
      * @param value1  the first String, may be null
      * @param value2  the second String, may be null
      * @return <code>false</code> if the Strings are equal, or both <code>null</code>
@@ -53,7 +53,7 @@ public class StringFixture extends SlimFixture {
      * <p><code>null</code>s are handled without exceptions. Two <code>null</code>
      * references are considered to be equal. The comparison is case sensitive.</p>
      *
-     * @see org.apache.commons.lang.StringUtils#equals(String, String)
+     * @see StringUtils#equals(CharSequence, CharSequence)
      * @param value1  the first String, may be null
      * @param value2  the second String, may be null
      * @return <code>true</code> if the Strings are equal, or both <code>null</code>
